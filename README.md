@@ -7,7 +7,7 @@ Introduction
 
 As per [this question](https://stackoverflow.com/q/680826/7881370), creating from string slice object, or even advanced indexing tuple, is a common requirement.
 However, there exists few robust and safe solution, if at all, to solve the problem.
-Therefore I attempt to solve it and expose programmatic interface via PyPI (will posted soon).
+Therefore I attempt to solve it and expose programmatic interface via PyPI.
 I also put my [answer](https://stackoverflow.com/a/57574429/7881370) to the question above.
 
 This repo is adapted from [my Gist](https://gist.github.com/kkew3/d1eed0984a3a44087c700215e99eefd2).
@@ -17,7 +17,8 @@ Install
 -------
 
 ```bash
-python3 setup.py install
+pip install sliceparser
+# or pip3 install sliceparser
 ```
 
 
